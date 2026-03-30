@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    flex: 0 1 auto;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #3e9742;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    height: 80%;
+    background-color: #18442c;
+    padding: 10px;
+    padding-left: 20px;
+    flex: 1 1 auto;
+    color: #f2f2f2;
+}
+
+/* Style the footer */
+.footer {
+    height: 20%;
+    background-color: #0f2011;
+    flex: 0 1 auto;
+    padding: 10px;
+    color: #f2f2f2;
+}
